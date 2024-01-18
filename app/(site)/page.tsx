@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AuithForm from "./components/AuthForm";
+import AuthForm from "./components/AuthForm";
 
 export default function Home() {
   return (
@@ -7,8 +7,8 @@ export default function Home() {
       <div className="sm:w-full sm:max-w-md text-center">
         <Image
           alt="Logo"
-          height={70}
-          width={70}
+          height={48}
+          width={48}
           className="mx-auto"
           src="/img/solola.svg"
         />
@@ -16,7 +16,7 @@ export default function Home() {
           Sign in to your account
         </h2>
       </div>
-      <AuithForm />
+      <AuthForm />
     </div>
   );
 }
