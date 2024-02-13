@@ -1,5 +1,6 @@
 "use client";
 
+import Input from "@/app/components/Inputs/Input";
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 
@@ -70,7 +71,12 @@ const AuthForm = () => {
         className="space-y-6"
         onSubmit={handleSubmit(onSubmit)}
         >
-
+          <Input 
+          id="email" 
+          label= "Email"
+          register={register}
+          errors={errors}
+          />
         </form>
       </div>
     </div>
