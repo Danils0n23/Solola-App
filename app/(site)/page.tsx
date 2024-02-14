@@ -6,7 +6,7 @@ const Auth = () => {
     <div 
   className="
     flex 
-    min-h-screen  <!-- Alterado de min-h-full para min-h-screen -->
+    min-h-screen
     flex-col 
     justify-center 
     py-12 
