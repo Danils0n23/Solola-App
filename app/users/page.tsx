@@ -1,6 +1,6 @@
-import EmptyState from '@/app/components/EmptyState';
+import EmptyState from '../components/EmptyState';
 
-const users = () => {
+const People = () => {
   return (
     <div className="hidden lg:block lg:pl-80 h-full">
       <EmptyState />
@@ -8,4 +8,4 @@ const users = () => {
    );
 }
  
-export default users;
+export default People;
