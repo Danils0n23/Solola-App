@@ -7,7 +7,7 @@ import { FieldValues, SubmitHandler, useForm } from 'react-hook-form';
 import { User } from '@prisma/client';
 import { CldUploadButton } from 'next-cloudinary';
 
-import Input from "../inputs/Input";
+import Input from "../Inputs/Input";
 import Modal from '../modals/Modal';
 import Button from '../Button';
 import Image from 'next/image';
@@ -110,7 +110,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                     width="48"
                     height="48" 
                     className="rounded-full" 
-                    src={image || currentUser?.image || '/images/placeholder.jpg'}
+                    src={image || currentUser?.image || '/img/placeholder.jpg'}
                     alt="Avatar"
                   />
                   <CldUploadButton 

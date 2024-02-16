@@ -1,93 +1,34 @@
-# Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher (2023)
+Real-Time Solola-App
+Real-Time Solola-App is a modern web application built with cutting-edge technologies to provide a seamless and real-time experience for users. The app is developed using Next.js 13, React, Tailwind CSS, Prisma, MongoDB, NextAuth, and Pusher.
 
-![Copy of Copy of Fullstack Twitter Clone (1)](https://user-images.githubusercontent.com/23248726/236631198-90414da5-ee43-46a9-8898-70b003bcd83d.png)
+Technologies Used:
+Next.js 13: The framework for building React applications with server-side rendering, making the app fast and SEO-friendly.
 
+React: A JavaScript library for building user interfaces, ensuring a dynamic and responsive user experience.
 
-This is a repository for a Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher.
+Tailwind CSS: A utility-first CSS framework that streamlines the styling process, allowing for quick and consistent design.
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=PGPGcKBpAk8)
+Prisma: A modern database toolkit for Node.js and TypeScript that simplifies database access and management.
 
-Master the art of building a real-time Messenger clone using the latest web development technologies. In this comprehensive tutorial, we'll walk you through the process of creating a fully-functional and visually stunning chat application that rivals the best in the industry.
+MongoDB: A NoSQL database for storing and retrieving data efficiently, providing flexibility for evolving data structures.
+
+NextAuth: An authentication library for Next.js applications, ensuring secure and customizable user authentication.
+
+Pusher: A platform for building real-time web applications, enabling instant updates and notifications for users.
 
 Key Features:
+Real-Time Updates: Leverage Pusher to enable real-time updates, ensuring users receive instant notifications and updates.
 
-- Real-time messaging using Pusher
-- Message notifications and alerts
-- Tailwind design for sleek UI
-- Tailwind animations and transition effects
-- Full responsiveness for all devices
-- Credential authentication with NextAuth
-- Google authentication integration
-- Github authentication integration
-- File and image upload using Cloudinary CDN
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- Message read receipts
-- Online/offline user status
-- Group chats and one-on-one messaging
-- Message attachments and file sharing
-- User profile customization and settings
-- How to write POST, GET, and DELETE routes in route handlers (app/api)
-- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
-- Handling relations between Server and Child components in a real-time environment
-- Creating and managing chat rooms and channels
+Authentication: Implement secure user authentication with NextAuth, providing a smooth and safe login experience.
 
-Whether you're an experienced developer looking to expand your skillset or a beginner eager to learn the latest web development technologies, this tutorial has something for everyone. Join us on this exciting journey and take your web development skills to new heights!
+Responsive Design: Utilize Tailwind CSS to create a responsive and visually appealing user interface that works seamlessly across devices.
 
+Database Management: Prisma and MongoDB work together to efficiently manage and store data, ensuring a reliable and scalable backend.
 
-### Prerequisites
+Getting Started:
+Clone the repository: git clone https://github.com/your-username/real-time-solola-app.git
+Install dependencies: npm install
+Configure environment variables (NextAuth, Pusher, MongoDB, etc.).
+Run the development server: npm run dev
+Explore the power of Real-Time Solola-App and contribute to its continuous improvement!
 
-**Node version 14.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/next13-messenger.git
-```
-
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-DATABASE_URL=
-NEXTAUTH_SECRET=
-
-NEXT_PUBLIC_PUSHER_APP_KEY=
-PUSHER_APP_ID=
-PUSHER_SECRET=
-
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-
-GITHUB_ID=
-GITHUB_SECRET=
-
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-```
-
-### Setup Prisma
-
-```shell
-npx prisma db push
-
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
